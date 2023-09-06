@@ -15,6 +15,7 @@ export const AuthContextProvider = (props) => {
 
   function loginHandler(token) {
     localStorage.setItem("token", token);
+
     setToken(token);
   }
 
